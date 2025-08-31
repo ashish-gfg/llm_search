@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LLM Web Search
 
 A Python application that searches the web for information on any topic, scrapes relevant content, and uses AI to provide accurate answers based on the gathered data.
@@ -32,8 +33,8 @@ llm_web_search/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd llm_web_search
+   git clone https://github.com/ashish-gfg/llm_search.git
+   cd llm_search
    ```
 
 2. **Create virtual environment**
@@ -58,8 +59,8 @@ llm_web_search/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd llm_web_search
+   git clone https://github.com/ashish-gfg/llm_search.git
+   cd llm_search
    ```
 
 2. **Build the image**
@@ -69,10 +70,10 @@ llm_web_search/
 
 3. **Run the container**
    ```bash
-   docker run -p 8501:8501 \
-     -e SERPER_API_KEY=your_key \
-     -e GEMINI_API_KEY=your_key \
-     -v $(pwd)/logs:/app/logs \
+   docker run -p 8501:8501 
+     -e SERPER_API_KEY=your_key 
+     -e GEMINI_API_KEY=your_key 
+     -v $(pwd)/logs:/app/logs 
      llm-web-search
    ```
 
@@ -152,3 +153,6 @@ Feel free to submit issues, fork the repository, and create pull requests for an
 ## 📄 License
 
 This project is open source and available under the MIT License.
+=======
+# llm_search
+>>>>>>> 723965b445ba915a2b039c4d8f59d63b58f30408
